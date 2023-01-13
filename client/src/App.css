@@ -1,0 +1,121 @@
+.App {
+  text-align: center;
+  padding: 2vh 2vw;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.popover-form-header{
+  display:flex;
+  justify-content: space-between;
+}
+.badge {
+  white-space:normal !important;
+}
+
+.navigation {
+  margin-bottom: 5vh;
+}
+
+.query-form-group {
+  margin: 1vh 1vw !important;
+}
+
+.query-form{
+  border: solid black 5px;
+  border-radius: 10px;
+  padding: 1vh 2vw;
+  margin-bottom: 5vh;;
+}
+
+.query-form-col-button{
+  display:flex;
+  justify-content: center !important;
+  align-items: center;
+}
+
+.popover-body {
+  background-color: #F5F5EE;
+}
+
+.last-response {
+  padding: 1vh 2vw;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: burlywood;
+}
+
+.last-response-data {
+  margin-top: 2vh;
+  margin-bottom: 3vh;;
+  padding: 1vh 1vw;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: azure;
+  overflow: scroll;
+  max-height: 60vh;
+}
+
+
+.response-list {
+  padding: 1vh 2vw;
+  border: 5px solid black;
+  border-radius: 10px;
+  background-color: palevioletred;
+}
+
+.response-list-data-new {
+  margin-top: 2vh;
+  margin-bottom: 3vh;;
+  padding: 1vh 1vw;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: yellow;
+  overflow: scroll;
+  max-height: 60vh;
+}
+
+.response-list-data {
+  margin-top: 2vh;
+  margin-bottom: 3vh;;
+  padding: 1vh 1vw;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: azure;
+  overflow: scroll;
+  max-height: 60vh;
+}
